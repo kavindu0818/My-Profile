@@ -7,7 +7,7 @@ const Card = ({ item: { title, des, icon } }) => {
                 <div className="flex h-full flex-col gap-10 translate-y-16 group-hover:translate-y-0 transition-transform duration-500">
                     <div className="w-10 h-8 flex flex-col justify-between">
                         {icon ? (
-                            <span className="text-5xl text-red-500">{icon}</span>
+                            <span className="text-5xl text-yellow-400">{icon}</span>
                             ) : (
                             <>
                             <span className="w-full h-[2px] rounded-lg bg-designColor inline-flex"></span>

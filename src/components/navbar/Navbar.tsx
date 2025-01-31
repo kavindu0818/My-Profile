@@ -11,7 +11,7 @@ const Navbar = () => {
 
     return (
         <div
-            className="w-full h-20 bg-gray-800 fixed top-0 left-0 z-50 flex justify-between items-center font-titleFont border-b border-gray-600 px-5 md:px-10"
+            className="w-full h-20 bg-[#191b1e] fixed top-0 left-0 z-50 flex justify-between items-center font-titleFont border-b border-gray-600 px-5 md:px-10"
         >
 
             {/* Logo Section */}

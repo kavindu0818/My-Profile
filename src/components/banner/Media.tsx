@@ -14,7 +14,7 @@ const Media = () => {
                           text-xl inline-flex items-center justify-center
                           rounded-md shadow-md hover:bg-opacity-40
                           hover:-translate-y-1 transition-all
-                          hover:text-blue-400 cursor-pointer duration-300
+                          hover:text-yellow-400 cursor-pointer duration-300
                           shadow-lg hover:shadow-xl">
             <FaFacebookF />
           </span>
@@ -22,7 +22,7 @@ const Media = () => {
                           text-xl inline-flex items-center justify-center
                           rounded-md shadow-md hover:bg-opacity-40
                           hover:-translate-y-1 transition-all
-                          hover:text-blue-400 cursor-pointer duration-300
+                          hover:text-yellow-400 cursor-pointer duration-300
                           shadow-lg hover:shadow-xl">
             <FaTwitter />
           </span>
@@ -30,7 +30,7 @@ const Media = () => {
                           text-xl inline-flex items-center justify-center
                           rounded-md shadow-md hover:bg-opacity-40
                           hover:-translate-y-1 transition-all
-                          hover:text-blue-400 cursor-pointer duration-300
+                          hover:text-yellow-400 cursor-pointer duration-300
                           shadow-lg hover:shadow-xl">
             <FaLinkedinIn />
           </span>

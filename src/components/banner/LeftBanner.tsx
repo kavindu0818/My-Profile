@@ -18,14 +18,14 @@ const LeftBanner: React.FC = () => {
         <div className="flex flex-col gap-5 left-5 top-56 relative">
           <h4 className="text-lg font-normal text-white">WELCOME TO MY WORLD</h4>
           <h1 className="text-6xl font-bold text-white">
-            Hi, I'm <span className="text-indigo-600 capitalize">Madhuranga</span>
+            Hi, I'm <span className="text-yellow-400 capitalize">Madhuranga</span>
           </h1>
           <h2 className="text-4xl font-bold text-white">
             a <span>{text}</span>
             <Cursor
                 cursorBlinking={false}
                 cursorStyle="|"
-                cursorColor="#ff014f"
+                cursorColor="rgb(250 204 21)"
             />
           </h2>
           <p className="text-base font-bodyFont leading-6 tracking-wide text-gray-300 w-2/4">
@@ -34,7 +34,7 @@ const LeftBanner: React.FC = () => {
             just to spruce things up, but doing it in ways that.
           </p>
 
-          <button className="w-40 h-10 bg-black text-white font-bold border-b-4">Downloard Cv</button>
+          <button className="w-40 h-10 bg-bodyColor text-white font-bold border-1 rounded-b-2xl hover:bg-yellow-400 hover:text-black">Downloard Cv</button>
         </div>
         {/* Media Component */}
         <Media/>

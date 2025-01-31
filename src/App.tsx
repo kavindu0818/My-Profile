@@ -11,6 +11,8 @@ import React from "react";
 // import Education from "./components/resume/Education.tsx";
 import Resume from "./components/resume/Resume.tsx";
 import Features from "./components/features/Features.tsx";
+import Projects from "./components/projects/Projects.tsx";
+import Contact from "./components/contact/Contact.tsx";
 // import Features from "./components/features/Features.tsx";
 // import Features from "./components/features/Features.tsx";
 // import Features from "./components/features/Features.tsx";
@@ -25,6 +27,8 @@ function App() {
             {/*<Education/>*/}
             <Resume></Resume>
             <Features></Features>
+            <Projects></Projects>
+            <Contact></Contact>
             {/*<Features></Features>*/}
         </div>
     );
