@@ -11,26 +11,28 @@ const Education = () => {
       >
         {/* part one */}
         <div>
-          <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
+          <div className="py-6 lgl:py-12 font-titleFont flex flex-col  gap-4">
           </div>
-          <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] sticky border-l-black  border-opacity-30 flex flex-col gap-10">
+            <div
+                className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] sticky border-l-black border-opacity-30 flex flex-col gap-10 left-96">
+              {/* Content here */}
             <ResumeCard
-                title="BSc in Computer Science"
-                subTitle="University of DVI (2006 - 2010)"
+                title="Graduate Diploma in Software Engineering"
+                subTitle="Institute of Software Engineering - IJSE (2023 - 2025)"
                 result="3.90/4"
-                des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+                des="I am pursuing a Graduate Diploma in Software Engineering at the Institute of Software Engineering (IJSE) (2023–2025), specializing in Java as the main programming language. My studies include hands-on experience through assignments, in-class tests, module exams, and practical exams, equipping me with strong problem-solving and software development skills."
             />
             <ResumeCard
-                title="AS - Science & Information"
-                subTitle="SuperKing College (2001 - 2005)"
+                title="G.C.E Advanced Level"
+                subTitle=" Physical Science Stream (2021)"
                 result="4.75/5"
-                des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+                des="In 2021, I completed my Advanced Level exam in the Physics stream, studying Combined Mathematics, Physics, and Chemistry. These subjects enhanced my problem-solving, analytical, and scientific skills, providing a strong foundation in calculus, mechanics, electromagnetism, and chemistry for further studies in engineering, technology, or scientific research."
             />
             <ResumeCard
-                title="Secondary School Education"
-                subTitle="Kingstar Secondary School (1998 - 2000)"
+                title="G.C.E Ordinary Level"
+                subTitle="2017"
                 result="5.00/5"
-                des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+                des="I completed my G.C.E. Ordinary Level examination in 2017 at Dambulla Central College, successfully facing nine subjects. This education provided me with a strong academic foundation, enhancing my knowledge in key subjects while developing critical thinking, problem-solving, and analytical skills essential for higher studies and future career growth."
             />
           </div>
         </div>

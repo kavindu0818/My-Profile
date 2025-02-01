@@ -32,7 +32,7 @@ const Aboutme = () => {
                       Bound - Trolola
                     </p>
                     <h3 className="text-2xl font-bold">Kavindu Madhuranga</h3>
-                    <p className="text-base tracking-wide text-gray-500">
+                    <p className="text-base tracking-wide text-yellow-400">
                       Software Engineer
                     </p>
                   </div>
@@ -44,6 +44,14 @@ const Aboutme = () => {
                       className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
                     <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                       <div>
+
+                        <div className="text-yellow-500 flex gap-1">
+                          <RiStarFill/>
+                          <RiStarFill/>
+                          <RiStarFill/>
+                          <RiStarFill/>
+                          <RiStarFill/>
+                        </div>
                         {/*<h3 className="text-xl lgl:text-2xl font-medium tracking-wide">*/}
                         {/*  Name: Kavindu Madhuranga Wijerathna <br/>*/}
                         {/*  Date of Birthday : 2001 Auguest 18<br/>*/}
@@ -59,13 +67,6 @@ const Aboutme = () => {
                           engineering began with a curiosity to understand how things work behind the screen,
                           and since then, there has been no turning back
                         </p>
-                      </div>
-                      <div className="text-yellow-500 flex gap-1">
-                        <RiStarFill/>
-                        <RiStarFill/>
-                        <RiStarFill/>
-                        <RiStarFill/>
-                        <RiStarFill/>
                       </div>
                     </div>
                     <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">

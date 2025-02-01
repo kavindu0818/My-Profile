@@ -1,4 +1,6 @@
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import {SiTailwindcss} from "react-icons/si";
+import {MdHtml} from "react-icons/md";
 // import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
 
 const Media = () => {
@@ -16,7 +18,7 @@ const Media = () => {
                           hover:-translate-y-1 transition-all
                           hover:text-yellow-400 cursor-pointer duration-300
                           shadow-lg hover:shadow-xl">
-            <FaFacebookF />
+            <MdHtml />
           </span>
             <span className="w-16 h-16 bg-black bg-opacity-25 text-gray-200
                           text-xl inline-flex items-center justify-center
