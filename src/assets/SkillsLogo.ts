@@ -7,6 +7,12 @@ import python  from "../assets/images/skillsLogo/python.png";
 import react from "../assets/images/skillsLogo/react.png";
 import sprinBoot from "../assets/images/skillsLogo/SpringBoot.png";
 import typeScript from "../assets/images/skillsLogo/typeScript.png";
+import mongoDb from "../assets/images/skillsLogo/mogoDb.png";
+import mysql from "../assets/images/skillsLogo/mysql.png";
+import hibernate from "../assets/images/skillsLogo/Hibernate.png";
+import windows from "../assets/images/skillsLogo/windows.png";
+import linux from "../assets/images/skillsLogo/linux.png";
+import github from "../assets/images/skillsLogo/github.png";
 
 
 export {
@@ -19,5 +25,12 @@ export {
     python,
     sprinBoot,
     typeScript,
+    mongoDb,
+    mysql,
+    hibernate,
+    windows,
+    github,
+    linux
+
 
 }

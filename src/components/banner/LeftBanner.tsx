@@ -5,7 +5,7 @@ import Media from './Media';
 
 const LeftBanner: React.FC = () => {
   const [text] = useTypewriter({
-    words: ["Professional Coder.", "Full Stack Developer.", "UI Designer."],
+    words: ["Professional Coder.", "Full Stack Developer."],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,

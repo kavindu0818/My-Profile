@@ -13,6 +13,7 @@ import Resume from "./components/resume/Resume.tsx";
 import Features from "./components/features/Features.tsx";
 import Projects from "./components/projects/Projects.tsx";
 import Contact from "./components/contact/Contact.tsx";
+import Skills from "./skills/Skills.tsx";
 // import Features from "./components/features/Features.tsx";
 // import Features from "./components/features/Features.tsx";
 // import Features from "./components/features/Features.tsx";
@@ -26,6 +27,7 @@ function App() {
             <Aboutme></Aboutme>
             {/*<Education/>*/}
             <Resume></Resume>
+            <Skills></Skills>
             <Features></Features>
             <Projects></Projects>
             <Contact></Contact>

@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import { logo } from "../../assets"; // Ensure logo is imported correctly
+import  logo  from "../../assets/images/nav/navProfile.png"; // Ensure logo is imported correctly
 import { navLinksdata } from '../../constants';
 
 const Navbar = () => {
@@ -18,6 +18,7 @@ const Navbar = () => {
             <div>
                 {/* Uncomment the img tag if you want to use the logo */}
                 <img src={logo} alt="logo" className="w-32"/>
+
             </div>
 
             {/* Desktop Menu */}

@@ -1,6 +1,6 @@
 // import React from 'react'
 import Title from '../layouts/Title.js'
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import { projectOne, projecttwo,projectthree,projectfour,projectfive } from "../../assets/ProjectImage.ts";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -25,31 +25,31 @@ const Projects = () => {
           title="E-commerce Website"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
+          src={projecttwo}
         />
         <ProjectsCard
           title="Chatting App"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
+          src={projectthree}
         />
         <ProjectsCard
           title="SOCIAL MEDIA CLONE"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
+          src={projectfour}
         />
         <ProjectsCard
           title="E-commerce Website"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
+          src={projectfive}
         />
         <ProjectsCard
           title="Chatting App"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
+          src={projectthree}
         />
       </div>
     </section>
