@@ -34,7 +34,10 @@ const LeftBanner: React.FC = () => {
             just to spruce things up, but doing it in ways that.
           </p>
 
-          <button className="w-40 h-10 bg-bodyColor text-white font-bold border-1 rounded-b-2xl hover:bg-yellow-400 hover:text-black">Downloard Cv</button>
+          <button
+              className="w-40 h-10 bg-bodyColor text-white font-bold border border-white rounded-b-2xl hover:bg-yellow-400 hover:text-black">
+            Download CV
+          </button>
         </div>
         {/* Media Component */}
         <Media/>

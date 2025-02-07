@@ -2,9 +2,9 @@
 
 const FooterBottom = () => {
   return (
-    <div className="w-full py-10">
+    <div className="w-full py-5 -top-30 relative">
       <p className="text-center text-gray-500 text-base">
-        © 2022. All rights reserved by Noor Mohammad
+        © 2025. All rights reserved by Kavindu Madhuranga
       </p>
     </div>
   );
