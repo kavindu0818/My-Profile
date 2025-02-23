@@ -8,7 +8,7 @@ import Features from "./components/features/Features.tsx";
 import Projects from "./components/projects/Projects.tsx";
 import Contact from "./components/contact/Contact.tsx";
 import Skills from "./skills/Skills.tsx";
-import Footer from "./components/footer/Footer.tsx";
+// import Footer from "./components/footer/Footer.tsx";
 
 function App() {
 
@@ -23,7 +23,7 @@ function App() {
             <Features></Features>
             <Projects></Projects>
             <Contact></Contact>
-            <Footer></Footer>
+            {/*<Footer></Footer>*/}
         </div>
     );
 }

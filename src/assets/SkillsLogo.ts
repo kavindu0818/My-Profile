@@ -13,6 +13,7 @@ import hibernate from "../assets/images/skillsLogo/Hibernate.png";
 import windows from "../assets/images/skillsLogo/windows.png";
 import linux from "../assets/images/skillsLogo/linux.png";
 import github from "../assets/images/skillsLogo/github.png";
+import prisma from "../assets/images/skillsLogo/prisma.png"
 
 
 export {
@@ -30,7 +31,8 @@ export {
     hibernate,
     windows,
     github,
-    linux
+    linux,
+    prisma
 
 
 }

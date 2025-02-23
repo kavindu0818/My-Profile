@@ -1,4 +1,21 @@
-import { java, html, python, js, typeScript, sprinBoot,react,nextJs,nodeJs,mongoDb,mysql,hibernate,github,windows,linux } from "../assets/SkillsLogo.ts";
+import {
+    java,
+    html,
+    python,
+    js,
+    typeScript,
+    sprinBoot,
+    react,
+    nextJs,
+    nodeJs,
+    mongoDb,
+    mysql,
+    hibernate,
+    github,
+    windows,
+    linux,
+    prisma
+} from "../assets/SkillsLogo.ts";
 import Title from "../components/layouts/Title.tsx";
 
 const Skills = () => {
@@ -82,7 +99,7 @@ const Skills = () => {
                             <h3 className="text-xl md:text-2xl font-semibold text-white">ORM TOOLS</h3>
                         </div>
                         <div className="flex flex-row gap-4">
-                            {[{img: hibernate, name: "Hibernate"}].map((item, index) => (
+                            {[{img: hibernate, name: "Hibernate"},{img: prisma,  name: "prisma"}].map((item, index) => (
                                 <span key={index}
                                       className="w-20 h-20 bg-black bg-opacity-25 text-gray-200 text-xl inline-flex flex-col items-center justify-center rounded-md shadow-md hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-yellow-400 cursor-pointer duration-300 shadow-lg hover:shadow-xl">
                                     <img className="w-10 h-8" src={item.img} alt={item.name}/>

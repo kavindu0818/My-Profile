@@ -51,7 +51,7 @@ const Contact = () => {
 
   const inputStyle = {
     width: '100%',
-    height: '2rem',
+    height: '2.5rem',
     borderRadius: '0.5rem',
     borderBottom: '1px solid white',
     backgroundColor: '#191b1e',

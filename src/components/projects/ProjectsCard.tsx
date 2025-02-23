@@ -18,7 +18,7 @@ const ProjectsCard = ({ title, des, src }) => {
             <h3 className="text-base uppercase text-designColor text-yellow-400 font-normal">
               {title}
             </h3>
-            <div className="flex gap-2">
+            <div className="flex gap-2 top-44">
               <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
                 <BsGithub />
               </span>
